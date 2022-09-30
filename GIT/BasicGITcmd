@@ -29,7 +29,7 @@ git restore <file name>
 .gitignore 
 And add the file names to it which will never be staged 
 
-# Git logs to check logs
+### Git Logs
 git log
 
 # check the files from commit in logs
@@ -37,3 +37,15 @@ git log --name-only
 
 # see short logs
 git log --oneline
+
+### Git branch
+# list Git branches
+git branch 
+
+# start new branch 
+git checkout -b kmash2
+
+# change to existing branch 
+git checkout kmash1
+
+
