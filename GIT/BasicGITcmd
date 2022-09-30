@@ -10,3 +10,9 @@ git add <file name>
 
 # commit the changes to local repo
 git commit -m "commuting my first file change"
+
+# check the status 
+git status 
+
+# check the difference 
+git diff 
