@@ -1,0 +1,12 @@
+#Initialise empty git repo:
+git init 
+
+# Add repo owner details 
+git config user.name "Kumar M."
+git config user.email "kmash@gmail.com"
+
+# add files to staging 
+git add <file name> 
+
+# commit the changes to local repo
+git commit -m "commuting my first file change"
