@@ -16,3 +16,15 @@ git status
 
 # check the difference 
 git diff 
+
+# Unstage added file
+git reset <file name>
+git restore --staged <file name>
+git rm --cached <file name>
+
+# restore modified file to staged one
+git restore <file name>
+
+To stop tracking files add file
+.gitignore 
+And add the file names to it which will never be staged 
