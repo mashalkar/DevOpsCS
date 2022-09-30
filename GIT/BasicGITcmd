@@ -25,6 +25,15 @@ git rm --cached <file name>
 # restore modified file to staged one
 git restore <file name>
 
-To stop tracking files add file
+#To stop tracking files add file
 .gitignore 
 And add the file names to it which will never be staged 
+
+# Git logs to check logs
+git log
+
+# check the files from commit in logs
+git log --name-only
+
+# see short logs
+git log --oneline
