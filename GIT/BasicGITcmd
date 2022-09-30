@@ -11,6 +11,9 @@ git add <file name>
 # commit the changes to local repo
 git commit -m "commuting my first file change"
 
+# change Git commit message of last commit
+git commit --amend -m "new message"
+
 # check the status 
 git status 
 
@@ -43,9 +46,17 @@ git log --oneline
 git branch 
 
 # start new branch 
+git branch kmash1
+
+# start and checkout new branch
 git checkout -b kmash2
 
 # change to existing branch 
 git checkout kmash1
 
+# delete branch 
+git branch -d kmash2
+
+### Head
+Head is where you are in the repository or branch
 
