@@ -76,3 +76,6 @@ git pull origin master
 git rebase master
 # rebase and squash the unwanted commits 
 git rebase -i HEAD~4
+
+# cherry pick one commit to another branch
+git cherry-pick <commit hash>
