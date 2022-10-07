@@ -74,5 +74,5 @@ git pull origin master
 ---
 # Rebasing 
 git rebase master
-
+# rebase and squash the unwanted commits 
 git rebase -i HEAD~4
