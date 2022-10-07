@@ -45,6 +45,9 @@ git log --oneline
 # list Git branches
 git branch 
 
+# list branch including the remote 
+git branch -a
+
 # start new branch 
 git branch kmash1
 
@@ -60,3 +63,16 @@ git branch -d kmash2
 ### Head
 Head is where you are in the repository or branch
 
+---
+
+# Git pull = Git fetch + git merge remote to local repo. 
+git fetch origin master
+git merge origin/master
+Or 
+git pull origin master 
+
+---
+# Rebasing 
+git rebase master
+
+git rebase -i HEAD~4
