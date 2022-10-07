@@ -79,3 +79,6 @@ git rebase -i HEAD~4
 
 # cherry pick one commit to another branch
 git cherry-pick <commit hash>
+
+----
+# RefLog
